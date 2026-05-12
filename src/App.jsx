@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from '/src/assets/weblogowhite.png';
+import favicon from '/src/assets/favicon.png';
 import pastEventImg1 from '/src/assets/SID05786.jpg';
 import pastEventImg2 from '/src/assets/SID05813.jpg';
 import pastEventImg3 from '/src/assets/SID05676.jpg';
@@ -30,7 +31,8 @@ export default function VibrantaLiveWebsite() {
       <nav className="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl max-h-18 bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-2xl flex items-center justify-between px-6 py-4 z-50 shadow-2xl">
         {/* Left: Logo */}
         <div className="flex items-center w-1/4">
-          <img src={logo} alt="Vibranta Live" className="h-16 md:h-20 w-auto object-contain scale-[0.8] origin-left" />
+          <img src={favicon} alt="Vibranta Live" className="md:hidden h-16 w-auto object-contain scale-[0.8] origin-left" />
+          <img src={logo} alt="Vibranta Live" className="hidden md:block h-20 w-auto object-contain scale-[0.8] origin-left" />
         </div>
 
         {/* Center: Navigation Links */}
