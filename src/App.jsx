@@ -220,7 +220,7 @@ export default function VibrantaLiveWebsite() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-black border border-zinc-800 rounded-[2rem] p-10 hover:scale-[1.02] hover:border-[#ff5400] hover:shadow-[0_0_25px_rgba(255,84,0,0.1)] transition duration-500 cursor-default">
+            <div className="bg-black border border-zinc-800 rounded-[2rem] p-10 hover:scale-[1.02] hover:border-[#ff5400] hover:shadow-[0_0_25px_rgba(255,84,0,0.1)] transition duration-500 cursor-default flex flex-col items-center text-center md:items-start md:text-left">
               <div className="text-sm uppercase tracking-[0.4em] text-[#ff5400] mb-5">
                 EDM EXPERIENCE
               </div>
@@ -232,7 +232,7 @@ export default function VibrantaLiveWebsite() {
               </p>
             </div>
 
-            <div className="bg-black border border-zinc-800 rounded-[2rem] p-10 hover:scale-[1.02] hover:border-[#ff5400] hover:shadow-[0_0_25px_rgba(255,84,0,0.1)] transition duration-500 cursor-default">
+            <div className="bg-black border border-zinc-800 rounded-[2rem] p-10 hover:scale-[1.02] hover:border-[#ff5400] hover:shadow-[0_0_25px_rgba(255,84,0,0.1)] transition duration-500 cursor-default flex flex-col items-center text-center md:items-start md:text-left">
               <div className="text-sm uppercase tracking-[0.4em] text-[#ff5400] mb-5">
                 FESTIVAL PROPERTY
               </div>
