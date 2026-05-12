@@ -5,7 +5,7 @@ import pastEventImg2 from '/src/assets/SID05813.jpg';
 import pastEventImg3 from '/src/assets/SID05676.jpg';
 import pastEventImg4 from '/src/assets/SID05614.jpg';
 import pastEventImg5 from '/src/assets/SID05543.jpg';
-import pastEventImg6 from '/src/assets/_DSC2823.jpg';
+import pastEventImg6 from '/src/assets/pastimage6.jpg';
 import pastEventImg7 from '/src/assets/SID05602.jpg';
 import pastEventImg8 from '/src/assets/SID05715.jpg';
 import pastEventImg9 from '/src/assets/SID05659.jpg';
